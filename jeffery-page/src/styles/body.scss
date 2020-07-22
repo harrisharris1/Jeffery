@@ -1,0 +1,115 @@
+.main-container{
+    width: 100%;
+}
+
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    margin:3%;
+}
+
+.content-section-reverse {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin:3%;
+}
+.text-content{
+    text-align: left;
+    width: 40% ;
+}
+.text-content p{
+    color: rgb(90, 89, 89);
+    font-size: 0.9em;
+    line-height: 2.4em;
+}
+
+.text-content h2{
+    font-weight: 400;
+}
+.text-content h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+.img-content {
+      width: 40%;
+      padding: 1%;
+
+     
+    }
+.img-content img{
+    border-radius: 5px;
+    width: 80%;
+}
+
+.cta-btn{
+    background-color:transparent;
+    border:1px solid #4b80f2;
+    color: #4b80f2;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top:2%;
+    border-radius: 10px;
+    width: 30%;
+}
+
+
+
+.text-content ul {
+   list-style-type: none;
+  
+  }
+  
+  
+  ul li:before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 30px;
+    background-size: 25px;
+    background-image: url(../images/checkmark.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    margin: 5px;
+  }
+
+
+.list{
+    display:flex;
+}
+.list h4{
+font-weight: 500;
+}
+.fingerprint img{
+    width: 110px;
+    height: 45%;
+    
+}
+.finger img{
+    width: 135px;
+}
+.employee img{
+    width: 110px;
+    height: 30%;
+    padding: 10%;
+}
+
+.list .paragraph{
+    margin-left:5%;
+}
+
+
+   
+   
+  
+
+    
+
+    
