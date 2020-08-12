@@ -1,0 +1,23 @@
+.SplitScreenContainer{
+    max-width: 100%;
+    display: flex;
+}
+
+.textSection{
+   display: flex;
+   background-color: #4b80f2;
+   max-width: 100%;
+   
+}
+.flex-text{
+    max-width: 90%;
+    margin:28% 3% 10% 3%;
+}
+
+.flex-text h3{
+    color:white;
+    font-size: 1.7em;
+}
+.split-picture img{
+   max-width: 100%;
+}
