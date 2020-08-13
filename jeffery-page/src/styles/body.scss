@@ -4,24 +4,50 @@
 }
 
 
-.content-section {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 6%;
-    margin-top: 3%;
-    
-}
+
 
 .content-section-reverse {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row-reverse;
-    margin-top: 3%;
+    margin: 5% 10% 0% 10%;
     
+    
+   
+   
+    
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 5% 10%;
+   
+    
+}
+
+
+.text-content-top{
+    text-align: left;
+    align-self: center;
+    width: 45% ;
+    margin-top: -10%;
+
+}
+.text-content-top p{
+    color: rgb(90, 89, 89);
+    font-size: 0.9em;
+    line-height: 2.0em;
+}
+
+.text-content-top h2{
+    font-weight: 400;
 }
 .text-content{
     text-align: left;
-    width: 35% ;
+    align-self: center;
+    width: 45% ;
+   
 }
 .text-content p{
     color: rgb(90, 89, 89);
@@ -39,7 +65,7 @@
 
 
 .img-content {
-      width: 35%;
+      width: 45%;
      
 
      
@@ -47,6 +73,11 @@
 .img-content img{
     border-radius: 5px;
     width: 80%;
+    display: block;
+}
+
+.img-content .girl-jump{
+    margin-top: 20%;
 }
 
 .cta-btn{
@@ -60,7 +91,7 @@
     font-size: 1em;
     margin-top:2%;
     border-radius: 10px;
-    width: 30%;
+    width: 45%;
 }
 
 
@@ -84,29 +115,37 @@
     margin-left: -25px;
   }
 
-
+.listContainer{
+    width: 100%;
+}
 .list{
     display:flex;
+    max-width: 100%;
+   
 }
+
+
 .list h4{
 font-weight: 500;
 }
-.fingerprint img{
-    width: 110px;
-    height: 45%;
-    
+
+.list .fingerprint{
+    width: 15%;
 }
-.finger img{
-    width: 135px;
+
+.list .finger{
+    width: 23%;
 }
-.employee img{
-    width: 110px;
-    height: 30%;
-    padding: 10%;
+
+.list .employee{
+    width: 20%;
 }
+
+
 
 .list .paragraph{
     margin-left:5%;
+    
 }
 
 

@@ -1,12 +1,12 @@
 import React from "react";
 import {Button} from "react-bootstrap";
-import Couch from "../images/couch.jpg";
+import Couch from "../images/cozy-pug.jpg";
 import Bath from "../images/bathroom.jpg"
-import Girl from "../images/mixedgirl.jpg";
-import Family from "../images/mom-daughter.jpg";
-import Fingerprint from "../images/fingerprint.png";
-import Finger from "../images/finger.png";
-import Employee from "../images/graduate.png";
+import Girlfriends from "../images/happy-friends2.jpg";
+import GirlJump from "../images/jumping-girl1.jpg";
+import Fingerprint from "../images/print.png";
+import Finger from "../images/finger-pointing.png";
+import Employee from "../images/grad-hat.png";
 
 
 
@@ -17,10 +17,10 @@ const HomeBody =()=>(
             
             <div className="content-section-reverse">
                   <div className="img-content">
-                        <img src={Couch} alt="comfy couch" height="75%"></img>
+                        <img src={Couch} alt="comfy couch"></img>
                     </div>
 
-                <div className="text-content">
+                <div className="text-content-top">
                     <h2><strong>Let us</strong> take care of the details</h2>
                     <p>Weekly cleaning: Once a week, our professional team cleans
                         bedrooms, and shared spaces, including kitchens, living rooms, and shared bathrooms.
@@ -54,7 +54,7 @@ const HomeBody =()=>(
 
                 <div className="content-section-reverse">
                 <div className="img-content">
-                            <img src={Girl} className="img-fluid rounded" height="70%" alt="Happy girl"></img>
+                            <img src={Girlfriends} className="img-fluid rounded" alt="Happy girl"></img>
                         </div>
 
                     <div className="text-content">
@@ -80,58 +80,58 @@ const HomeBody =()=>(
                
     
                 <div className="content-section">
-                        <div className="img-content">
-                            <img src={Family} className="img-fluid rounded" height="70%" alt="Happy mother and daughter"></img>
-                        </div>
+                            <div className="img-content">
+                                <img src={GirlJump} className="girl-jump" alt="Happy mother and daughter"></img>
+                            </div>
                     
                     
                         <div className="text-content">
                             <h3> <strong>Jefferys</strong> Make Sure it Gets Done Right.</h3>
                             <p>Dedicated Jefferys with you 24/7 to get your home on auto-pilot.</p>
                        
-                        
-                        <div className="list">
-                            <div className="fingerprint">
-                            <img  src={Fingerprint} alt="fingerprint"></img>
-                            </div>
-                            <div className="paragraph">
-                        <h4> Background Checked</h4>
-                        <p>All Jefferys are background checked. Each Jeffery is carefully
-                            hand-picked from thousands of applicants.
-                        </p>
-                        </div>
-                       </div>
+                                <div className="listContainer">
+                                                <div className="list">
+                                                        <div className="fingerprint">
+                                                        <img  src={Fingerprint} alt="fingerprint"></img>
+                                                        </div>
+                                                    <div className="paragraph">
+                                                            <h4> Background Checked</h4>
+                                                            <p>All Jefferys are background checked. Each Jeffery is carefully
+                                                                hand-picked from thousands of applicants.
+                                                            </p>
+                                                    </div>
+                                                </div>
 
 
-                           <div className="list">
-                               <div className="finger">
-                               <img src={Finger} alt="finger"></img>
-                               </div>
-                               <div className="paragraph">
-                                <h4> Only The Best Quality</h4>
-                                <p>Jefferys are full employees wuth competitive compensation and 
-                                    bonuses for each positive customer review incentivizing them to
-                                    go above and beyond.
-                                </p>
-                                </div>
-                            </div>
-
-                          
-
-                           <div className="list">
-                                    <div className="employee">
-                                        <img  src={Employee} alt="employee"></img> 
+                                        <div className="list">
+                                            <div className="finger">
+                                            <img src={Finger} alt="finger"></img>
+                                            </div>
+                                                <div className="paragraph">
+                                                    <h4> Only The Best Quality</h4>
+                                                    <p>Jefferys are full employees wuth competitive compensation and 
+                                                        bonuses for each positive customer review incentivizing them to
+                                                        go above and beyond.
+                                                    </p>
+                                                </div>
                                         </div>
-                                   <div className="paragraph">
-                                    <h4>Trained and Trusted</h4>
-                                
-                                    <p>Graduates of Jeffery Accelerate (program created by hospitality
-                                    experts). Jefferys only have access to your home on your service
-                                    date.</p>
-                                    </div>
-                           </div>
 
-                        </div>
+                                        
+
+                                        <div className="list">
+                                                        <div className="employee">
+                                                        <img  src={Employee} alt="employee"></img> 
+                                                        </div>
+                                                <div className="paragraph">
+                                                        <h4>Trained and Trusted</h4>
+                                                    
+                                                        <p>Graduates of Jeffery Accelerate (program created by hospitality
+                                                        experts). Jefferys only have access to your home on your service
+                                                        date.</p>
+                                                    </div>
+                                        </div>
+                            </div>
+                        </div> {/*text content*/}
                     </div>
             </div>
 
