@@ -10,8 +10,7 @@
    
 }
 .flex-text{
-    max-width: 90%;
-    margin:28% 3% 10% 3%;
+    margin:25% 3% 10% 3%;
 }
 
 .flex-text h3{
@@ -20,4 +19,40 @@
 }
 .split-picture img{
    max-width: 100%;
+   max-width: 100%;
+   display: block;
+}
+
+.BottomCTAContainer{
+    max-width: 100%;
+    height: 20vh;
+}
+.cta-text{
+    margin-top:7%;
+    line-height: 0rem;
+    
+}
+.cta-text h4{
+    font-weight: 400;
+    font-size: 1.9em;
+}
+.cta-text p{
+    color:rgb(90, 89, 89); 
+    font-size: 0.7em;
+}
+
+
+.cta-btnbottom{
+background-color: #4b80f2;
+border-color:transparent;
+    color: white;
+    padding: 0.7%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-top:2%;
+    border-radius: 25px;
+    width: 15%;
+    outline: 0;
 }
