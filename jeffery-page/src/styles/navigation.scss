@@ -1,11 +1,17 @@
 .nav-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 3%;
 
     
 }
 .nav-links .partner{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.nav-links .home-link{
     color: white;
     text-decoration: none;
     font-weight: 800;

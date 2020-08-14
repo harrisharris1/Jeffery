@@ -1,29 +1,31 @@
 import React from 'react';
 import Nav from "./components/nav";
-import HomeBody from "./components/body";
-import SplitScreen from "./components/split-screen";
-import BottomCTA from "./components/bottom-cta";
-import Footer from "./components/footer";
+import Partner from "./components/partner";
+import Home from "./components/home";
+import {Route} from "react-router-dom";
 import "./styles/navigation.scss";
 import "./styles/body.scss";
 import "./styles/split-screen.scss"
 import "./styles/footter.scss";
 import './App.css';
 
-function App() {
-  return (
+const App =()=> (
+
     <div className="App">
-      
+      <div>
          <Nav/>
-         <HomeBody/>
-         <SplitScreen/>
-         <BottomCTA/>
-         <Footer/>
+         
+         <Route exact path="/">
+           <Home/>
+        </Route>
+
+         <Route exact path ="/partner">
+          <Partner/> 
+          </Route>
       
-      
+         </div>
     </div>
-  );
-}
+)
 
 export default App;
 

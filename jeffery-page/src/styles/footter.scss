@@ -3,13 +3,13 @@
     height: 25vh;
     background-color: #4b80f2;
     display: block;
+    padding:2%;
     
 }
 
 .columnsContainer{
     display:flex;
     justify-content: space-between;
-    width: 100%;
     color: white;
     
     
@@ -52,7 +52,7 @@
 
 
 .social-icons img{
-    max-width: 10%;
+    max-width: 5%;
     margin: 2%;
     
 }

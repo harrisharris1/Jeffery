@@ -1,5 +1,7 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import{Link} from "react-router-dom";
+
+
 
 
 
@@ -8,9 +10,12 @@ import {NavLink} from "react-router-dom";
 const Navigation =()=>(
         <div className="nav">
             <div className="nav-background">
+           
                 <div className="nav-links">
                     <img src="" width="80px" alt="logo"></img>
-                    <NavLink className="partner" to="/partner">Partner With Us</NavLink>
+        
+                    <Link to="/" className="home-link">Home</Link>
+                    <Link to="/partner" className="partner">Partner With Us</Link>
                 </div>
                 <div className="Intro">
                     <h1>All inclusive living is living made better.</h1>
@@ -18,9 +23,9 @@ const Navigation =()=>(
                 </div>
 
             </div>
-            
-            
         </div>
+
+
 );
 
 export default Navigation
