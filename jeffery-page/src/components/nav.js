@@ -1,5 +1,6 @@
 import React from "react";
 import{Link} from "react-router-dom";
+import Jeffery from "../images/jeffery-logo.png"
 
 
 
@@ -12,10 +13,11 @@ const Navigation =()=>(
             <div className="nav-background">
            
                 <div className="nav-links">
-                    <img src="" width="80px" alt="logo"></img>
+                    <img src={Jeffery} width="150px" alt="logo"></img>
         
                     <Link to="/" className="home-link">Home</Link>
                     <Link to="/partner" className="partner">Partner With Us</Link>
+                    <Link to="/Log In" className="partner">Log In</Link>
                 </div>
                 <div className="Intro">
                     <h1>All inclusive living is living made better.</h1>

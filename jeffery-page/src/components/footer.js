@@ -2,13 +2,14 @@ import React from "react";
 import Twitter from "../images/twitter.svg";
 import Facebook from "../images/facebook.svg";
 import Insta from "../images/insta.svg";
+import Jeffery from "../images/jeffery-logo.png"
 
 
 const Footer = ()=>(
     <section className="footerContainer">
         <div className="columnsContainer">
            <div className="column1">
-                <img src="" alt="Jeffery white logo"></img>
+                <img src={Jeffery} width="120px" alt="Jeffery white logo"></img>
                 <h5>We are on a mission to build intuitive professional services
                     into the places we live.
                 </h5>
