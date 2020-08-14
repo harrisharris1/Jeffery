@@ -1,0 +1,60 @@
+.partnerContainer{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.partnerContainer h1{
+    font-weight: 400;
+    margin: 5%;
+}
+
+
+
+.textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10%;
+}
+.textContainer img{
+    border-radius: 5px;
+    width: 30%;
+    display: block;
+}
+
+.text{
+    width: 45% ;
+    align-self:center; 
+    
+}
+.text p{
+    color: rgb(90, 89, 89);
+}
+
+.partners-logos{
+    margin:15%;
+}
+.partners-logos h3{
+    font-size: 1.7em;
+    font-weight:400;
+}
+.logos{
+   display:flex;
+   justify-content: space-evenly;
+   margin:5%;
+}
+.logos img{
+    
+    width:20%;
+    box-shadow: 10px 10px 0 0 rgba(129, 126, 126, 0.082);
+;
+}
+
+.logos .green{
+    width:25%;
+}
+
+.logos .prello{
+    background-color: white;
+}
+
+

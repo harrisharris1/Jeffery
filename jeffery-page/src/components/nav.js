@@ -1,5 +1,6 @@
-import React from "react";
+import React, {Component} from "react";
 import{Link} from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import Jeffery from "../images/jeffery-logo.png"
 
 
@@ -29,5 +30,7 @@ const Navigation =()=>(
 
 
 );
+
+
 
 export default Navigation
