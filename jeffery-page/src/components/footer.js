@@ -14,9 +14,9 @@ const Footer = ()=>(
                     into the places we live.
                 </h5>
                     <div className="social-icons">
-                        <img src={Twitter} ></img>
-                        <img src={Facebook}></img>
-                        <img src={Insta}></img>
+                        <img src={Twitter} alt="twitter icon"></img>
+                        <img src={Facebook} alt="facebook icon"></img>
+                        <img src={Insta} alt="insta icon"></img>
                       
 
                     </div>
