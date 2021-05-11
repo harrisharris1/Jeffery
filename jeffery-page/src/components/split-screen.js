@@ -15,7 +15,7 @@ const SplitScreen =()=>(
             </div>
 
             <div className="split-picture">
-            <img src={GirlinRed}></img>
+            <img src={GirlinRed} alt="girl smiling"></img>
             </div>
        
 

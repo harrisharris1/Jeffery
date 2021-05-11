@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from "./nav";
 import HomeBody from "./body";
 import SplitScreen from "./split-screen";
 import BottomCTA from "./bottom-cta";

@@ -36,7 +36,7 @@ const HomeBody =()=>(
     
                 <div className="content-section">
                     <div className="img-content">
-                        <img src={Bath} className="img-fluid rounded" alt="Bathroom picture"></img>
+                        <img src={Bath} className="img-fluid rounded" alt="Bathroom"></img>
                     </div>
                 
                 

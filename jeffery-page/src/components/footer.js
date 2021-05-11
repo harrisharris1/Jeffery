@@ -23,22 +23,22 @@ const Footer = ()=>(
             </div>
 
             <div className="column2">
-                <a>Our Story</a>
-                <a>FAQ</a>
-                <a>Blog</a>
+                <p>Our Story</p>
+                <p>FAQ</p>
+                <p>Blog</p>
                 
             </div>
 
             <div className="column3">
-                <a>Partner With Us</a>
-                <a>Contact Us</a>
-                <a>Terms of Service</a>
+                <p>Partner With Us</p>
+                <p>Contact Us</p>
+                <p>Terms of Service</p>
             </div>
 
             <div className="column4">
-                <a>We're Hiring!</a>
-                <a>Press</a>
-                <a>Privacy Policy</a>
+                <p>We're Hiring!</p>
+                <p>Press</p>
+                <p>Privacy Policy</p>
             </div>
             
            
